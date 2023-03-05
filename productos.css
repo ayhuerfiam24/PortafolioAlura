@@ -1,0 +1,86 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color:#BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{          /* pocisionar el encabezado */
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {       /* pocisionar el menu navegacion en el encabezado*/
+    position:absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display:inline; /* inline ocupe el tamaño de su contenido y no el contenido de la ventana*/
+    margin: 0 0 0 15px;
+}
+
+nav a{                      /*configurar el diseño tipografico del menu de navegacion*/
+    text-transform: uppercase;
+    color: #000000;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+}
+nav a:hover{
+    /*hover Cuando queremos resaltar alguna característica en el momento en que el mouse del usuario esté por encima del elemento.*/
+    color:#c78c19;
+    text-decoration: underline;
+    font-size: 24px;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    /* editar el borde por cada funcion
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;*/
+}
+.productos li:hover{ /*captura el clip del mouse*/
+    border-color: #c78c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{ /*captura el efecto del clip */
+    font-size: 33px;
+}
+.productos-descripcion{
+    font-size: 20px;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{ /*selector footer*/
+    text-align: center;
+    background: url(imagenes/bg.jpg); /*imagen cargada desde el css con una imagen interna*/
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

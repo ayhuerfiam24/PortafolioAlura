@@ -1,0 +1,67 @@
+/*CSS (Cascading Style Sheet o hoja de estilos en cascada), que es otro lenguaje,
+separada del HTML, con objetivo único de cuidar de la estilización de la página. La ventaja es que el
+CSS es más robusto que HTML para estilización, como veremos.*/
+
+/* estructura del css
+selector {
+propiedad: valor;
+}
+
+p {
+text-align: center;
+text-decoration: underline;
+}
+
+ */
+
+.titulo-principal{
+    padding-left: 30px; /*Para espaciado interno y externo
+                          usamos respectivamente padding y margin*/
+}
+
+#banner{
+    width:100%; /*para redimensionar elementos podemos usar las
+                  propiedades de anchura y altura o width y height*/
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{ /*clases*/
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
